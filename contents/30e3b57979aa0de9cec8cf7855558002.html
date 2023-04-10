@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ordem de Compra</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>Ordem de Compra</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-UMLUseCase"></span>
+          UMLUseCase
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Untitled</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='74f25f233cba17645d30d1d144b20c11.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='30e3b57979aa0de9cec8cf7855558002.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Ordem de Compra</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Fluxo Principal
+1. O usuário avalia as ações disponíveis (Fluxo Alternativo - 01)
+2. O usuário escolhe o tipo de ordem de compra e a quantidade (Fluxo Alternativo - 02)
+3. A ordem de compra é enviada para a corretora (Fluxo Alternativo - 03)
+4. A corretora envia a ordem de compra para a B3
+5. A B3 retorna para a corretora que a ordem foi aprovada (Fluxo Alternativo - 05)
+6. A corretora notifica o usuário da aprovação</p>
+
+<p>Fluxo Alternativo - 03
+3.1. O usuário pode visualizar o status da ordem de compra
+3.2. O usuário pode cancelar ou modificar as informações da ordem de compra
+3.3. As modificações são enviadas a corretora
+3.4. Retorna ao Fluxo Principal 4</p>
+
+<p>Fluxo Alternativo - 05
+5.1. A B3 retorna para a corretora que a ordem foi reprovada
+5.2. A corretora notifica o usuário da reprovação</p>
+
+<p>Fluxo Alternativo - 02 
+2.1. O usuário escolhe o tipo de ordem de gatilho
+2.2. O usuário escolhe o valor no qual a ação será comprada
+2.3. Se atingir o valor desejado, retorna ao Fluxo Principal 3</p>
+
+<p>Fluxo Alternativo - 01
+1.1. Se o usuário já tiver uma ordem de compra para ação visualizada aparece uma notificação</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+        
+        
+<section class="element-list">
+    <h3>Actors</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='4d89a2b8a7c15fc652ff21f0a1208657.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Usuario</a></li>
+        
+        <li><a href='465e7f6b57a4ec64152e0173ea230885.html'><span class='node-icon staruml-icon icon-UMLActor'></span>B3</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+      <section>
+        <h3>Attributes</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="62782c8deda8d8b5335ba678c8279c54.html">Role1</a></td>
+            <td><a href='4d89a2b8a7c15fc652ff21f0a1208657.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Usuario</a> </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="dd47172a5c260590a95f0afb46f79d56.html">Role2</a></td>
+            <td><a href='465e7f6b57a4ec64152e0173ea230885.html'><span class='node-icon staruml-icon icon-UMLActor'></span>B3</a> </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="ab404f12350f9454c51e4dc35e1db6ae.html">Role3</a></td>
+            <td><a href='76318145bc6e7a1e99f89548ad345ad8.html'><span class='node-icon staruml-icon icon-UMLClass'></span>OrdemCompra</a> </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="30803264f9798cc85eca11b6e20bd498.html">Role4</a></td>
+            <td><a href='e9e9498a049919f2d37c1260a5dcfd90.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Acao</a> </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="3d55e529e09b59cbd0128a07ef79661c.html">Role5</a></td>
+            <td><a href='29dfcfbb0fdedb5607f49cc0c5430e0b.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Cotacao</a> </td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>Ordem de Compra</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>stereotype</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>extensionPoints</td>
+        <td>
+            
+        </td>
+    </tr>
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='4efe53a0b2be46b692097d852e16df00.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Usuario—Ordem de Compra)</a></li>
+        
+        <li><a href='3f1719df38aa60ba779bc0bf54c0f0d7.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Ordem de Compra—B3)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='3f1719df38aa60ba779bc0bf54c0f0d7.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Ordem de Compra—B3)</a></li>
+        
+        <li><a href='4a9fb2562e4693ccba632911a648c5ca.html'><span class='node-icon staruml-icon icon-UMLInteraction'></span>Interaction1</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
+    </div>
+  </body>
+</html>
