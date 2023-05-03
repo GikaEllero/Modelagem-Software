@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Cadastro</title>
+    <title>Realiza Login</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Cadastro</h1>
+      <h1>Realiza Login</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLUseCase"></span>
-          UMLUseCase
+          <span class="node-icon staruml-icon icon-UMLAction"></span>
+          UMLAction
         </span>
         
       </section>
@@ -41,10 +41,10 @@
           <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Untitled</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='74f25f233cba17645d30d1d144b20c11.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
+          <span class="label label-info"><a href='afe36d34b8990f398cdc0fa3e8cb42b8.html'><span class='node-icon staruml-icon icon-UMLActivity'></span>Activity1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='d84e501137354dca31c8014ffa944d43.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Cadastro</a></span>
+          <span class="label label-info"><a href='d7a2f4008b8bd80812aa5336ca0214af.html'><span class='node-icon staruml-icon icon-UMLAction'></span>Realiza Login</a></span>
         
       </section>
 
@@ -59,12 +59,7 @@
         <h3>Description</h3>
         <div>
           
-            <p>Fluxo Principal
-1. O usuário preenche o formulário de cadastro no site e envia as documentações necessárias
-2.  Após a conferencia dos documentos, o usuário passa a ter acesso a plataforma (Fluxo Alternativo 02)</p>
-
-<p>Fluxo Alternativo - 02
-2.1. O usuário precisa reenviar os documentos para nova conferencia.</p>
+            <span class="label label-info">none</span>
           
         </div>
       </section>
@@ -85,26 +80,6 @@
       <!-- Classifier -->
 
       
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-      
 
       <!-- Interface -->
 
@@ -123,29 +98,6 @@
       
 
       <!-- Use Case -->
-
-      
-        
-        
-<section class="element-list">
-    <h3>Actors</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='4d89a2b8a7c15fc652ff21f0a1208657.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Usuario</a></li>
-        
-        <li><a href='5ba1c37b23ba922a87c7c6e2513c3764.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Funcionario</a></li>
-        
-    </ul>
-</section>
-
-
-
-        
-        
-
-
-        
-        
 
       
 
@@ -187,6 +139,26 @@
       
 
       <!-- Action -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
 
       
 
@@ -261,7 +233,7 @@
     
     <tr>
         <td>name</td>
-        <td>Cadastro</td>
+        <td>Realiza Login</td>
     </tr>
     
     
@@ -294,6 +266,13 @@
     
     
     
+    <tr>
+        <td>kind</td>
+        <td>opaque</td>
+    </tr>
+    
+    
+    
     
     
     
@@ -303,7 +282,25 @@
     
     
     <tr>
-        <td>isAbstract</td>
+        <td>target</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>subactivity</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLocallyReentrant</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -312,8 +309,8 @@
     
     
     <tr>
-        <td>isFinalSpecialization</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>isSynchronous</td>
+        <td><span class='label label-info'>true</span></td>
     </tr>
     
     
@@ -321,8 +318,8 @@
     
     
     <tr>
-        <td>isLeaf</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>language</td>
+        <td></td>
     </tr>
     
     
@@ -330,11 +327,13 @@
     
     
     <tr>
-        <td>extensionPoints</td>
-        <td>
-            
-        </td>
+        <td>body</td>
+        <td></td>
     </tr>
+    
+    
+    
+    
     
     
     
@@ -370,9 +369,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='57ad486fc9b45654ef31ffaa00ad5027.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Usuario—Cadastro)</a></li>
+        <li><a href='92edf71c8e902ce647cec115575df034.html'><span class='node-icon staruml-icon icon-UMLControlFlow'></span>[Possui Cadastro] (DecisionNode2→Realiza Login)</a></li>
         
-        <li><a href='e794d8966b8d6c90cae047b2016e69c0.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Cadastro—Funcionario)</a></li>
+        <li><a href='d6383980299631afc4caa9574b5683f7.html'><span class='node-icon staruml-icon icon-UMLControlFlow'></span>(Realiza Login→ActivityFinalNode1)</a></li>
         
     </ul>
 </section>
@@ -383,17 +382,6 @@
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='e794d8966b8d6c90cae047b2016e69c0.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Cadastro—Funcionario)</a></li>
-        
-        <li><a href='536a8aba49a66ee05d2ea2994828bf83.html'><span class='node-icon staruml-icon icon-UMLActivity'></span>Activity1</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->

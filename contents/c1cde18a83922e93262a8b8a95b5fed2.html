@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Cadastro</title>
+    <title>Solicita Grafico</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Cadastro</h1>
+      <h1>Solicita Grafico</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLUseCase"></span>
-          UMLUseCase
+          <span class="node-icon staruml-icon icon-UMLAction"></span>
+          UMLAction
         </span>
         
       </section>
@@ -44,7 +44,16 @@
           <span class="label label-info"><a href='74f25f233cba17645d30d1d144b20c11.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='d84e501137354dca31c8014ffa944d43.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Cadastro</a></span>
+          <span class="label label-info"><a href='be267bd10ad26b201675084dfde2f704.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Graficos e Visualizações</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='918fdc016ec5554f489f371109158965.html'><span class='node-icon staruml-icon icon-UMLActivity'></span>Activity1</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='baf6d176abed28649431bf51c9a99239.html'><span class='node-icon staruml-icon icon-UMLSwimlaneVert'></span>Usuário</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='c1cde18a83922e93262a8b8a95b5fed2.html'><span class='node-icon staruml-icon icon-UMLAction'></span>Solicita Grafico</a></span>
         
       </section>
 
@@ -59,12 +68,7 @@
         <h3>Description</h3>
         <div>
           
-            <p>Fluxo Principal
-1. O usuário preenche o formulário de cadastro no site e envia as documentações necessárias
-2.  Após a conferencia dos documentos, o usuário passa a ter acesso a plataforma (Fluxo Alternativo 02)</p>
-
-<p>Fluxo Alternativo - 02
-2.1. O usuário precisa reenviar os documentos para nova conferencia.</p>
+            <span class="label label-info">none</span>
           
         </div>
       </section>
@@ -85,26 +89,6 @@
       <!-- Classifier -->
 
       
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-      
 
       <!-- Interface -->
 
@@ -123,29 +107,6 @@
       
 
       <!-- Use Case -->
-
-      
-        
-        
-<section class="element-list">
-    <h3>Actors</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='4d89a2b8a7c15fc652ff21f0a1208657.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Usuario</a></li>
-        
-        <li><a href='5ba1c37b23ba922a87c7c6e2513c3764.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Funcionario</a></li>
-        
-    </ul>
-</section>
-
-
-
-        
-        
-
-
-        
-        
 
       
 
@@ -187,6 +148,26 @@
       
 
       <!-- Action -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
 
       
 
@@ -261,7 +242,7 @@
     
     <tr>
         <td>name</td>
-        <td>Cadastro</td>
+        <td>Solicita Grafico</td>
     </tr>
     
     
@@ -294,6 +275,13 @@
     
     
     
+    <tr>
+        <td>kind</td>
+        <td>opaque</td>
+    </tr>
+    
+    
+    
     
     
     
@@ -303,7 +291,25 @@
     
     
     <tr>
-        <td>isAbstract</td>
+        <td>target</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>subactivity</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLocallyReentrant</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -312,8 +318,8 @@
     
     
     <tr>
-        <td>isFinalSpecialization</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>isSynchronous</td>
+        <td><span class='label label-info'>true</span></td>
     </tr>
     
     
@@ -321,8 +327,8 @@
     
     
     <tr>
-        <td>isLeaf</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>language</td>
+        <td></td>
     </tr>
     
     
@@ -330,11 +336,13 @@
     
     
     <tr>
-        <td>extensionPoints</td>
-        <td>
-            
-        </td>
+        <td>body</td>
+        <td></td>
     </tr>
+    
+    
+    
+    
     
     
     
@@ -370,9 +378,7 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='57ad486fc9b45654ef31ffaa00ad5027.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Usuario—Cadastro)</a></li>
-        
-        <li><a href='e794d8966b8d6c90cae047b2016e69c0.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Cadastro—Funcionario)</a></li>
+        <li><a href='0121050952d91b8be406c1484cd7175c.html'><span class='node-icon staruml-icon icon-UMLControlFlow'></span>(Solicita Grafico→DecisionNode1)</a></li>
         
     </ul>
 </section>
@@ -383,17 +389,6 @@
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='e794d8966b8d6c90cae047b2016e69c0.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Cadastro—Funcionario)</a></li>
-        
-        <li><a href='536a8aba49a66ee05d2ea2994828bf83.html'><span class='node-icon staruml-icon icon-UMLActivity'></span>Activity1</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->

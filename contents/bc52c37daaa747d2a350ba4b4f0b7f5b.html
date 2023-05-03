@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Cadastro</title>
+    <title>Erro</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Cadastro</h1>
+      <h1>Erro</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLUseCase"></span>
-          UMLUseCase
+          <span class="node-icon staruml-icon icon-UMLState"></span>
+          UMLState
         </span>
         
       </section>
@@ -41,10 +41,19 @@
           <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Untitled</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='74f25f233cba17645d30d1d144b20c11.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
+          <span class="label label-info"><a href='594af663de577680f35b13183109d675.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='d84e501137354dca31c8014ffa944d43.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Cadastro</a></span>
+          <span class="label label-info"><a href='474cf3b766a3788a710a8cee1212bad4.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Usuario</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='9476b75ee9cb3e5207503985062dc6c2.html'><span class='node-icon staruml-icon icon-UMLStateMachine'></span>StateMachine1</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='2adec285151fc53e775f56408ab50ed9.html'><span class='node-icon staruml-icon icon-UMLRegion'></span>(Region)</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='bc52c37daaa747d2a350ba4b4f0b7f5b.html'><span class='node-icon staruml-icon icon-UMLState'></span>Erro</a></span>
         
       </section>
 
@@ -59,12 +68,7 @@
         <h3>Description</h3>
         <div>
           
-            <p>Fluxo Principal
-1. O usuário preenche o formulário de cadastro no site e envia as documentações necessárias
-2.  Após a conferencia dos documentos, o usuário passa a ter acesso a plataforma (Fluxo Alternativo 02)</p>
-
-<p>Fluxo Alternativo - 02
-2.1. O usuário precisa reenviar os documentos para nova conferencia.</p>
+            <span class="label label-info">none</span>
           
         </div>
       </section>
@@ -85,26 +89,6 @@
       <!-- Classifier -->
 
       
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-      
 
       <!-- Interface -->
 
@@ -123,29 +107,6 @@
       
 
       <!-- Use Case -->
-
-      
-        
-        
-<section class="element-list">
-    <h3>Actors</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='4d89a2b8a7c15fc652ff21f0a1208657.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Usuario</a></li>
-        
-        <li><a href='5ba1c37b23ba922a87c7c6e2513c3764.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Funcionario</a></li>
-        
-    </ul>
-</section>
-
-
-
-        
-        
-
-
-        
-        
 
       
 
@@ -213,8 +174,54 @@
       <!-- State -->
 
       
+        
+        
+
+
+        
+        
+<section class="element-list">
+    <h3>Do Activities</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='20ccfc0e1b83acad065a871c9708bdc7.html'><span class='node-icon staruml-icon icon-UMLStateMachine'></span>BloqueiaUsuario</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
 
       <!-- Vertex -->
+
+      
+        
+        
+<section class="element-list">
+    <h3>Incoming Transitions</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='a4e9fbb6beff487f03e284715d4686d5.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Login→Erro)</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
 
       
 
@@ -261,7 +268,7 @@
     
     <tr>
         <td>name</td>
-        <td>Cadastro</td>
+        <td>Erro</td>
     </tr>
     
     
@@ -303,38 +310,11 @@
     
     
     <tr>
-        <td>isAbstract</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>submachine</td>
+        <td><span class='label label-info'>null</span></td>
     </tr>
     
     
-    
-    
-    
-    <tr>
-        <td>isFinalSpecialization</td>
-        <td><span class='label label-info'>false</span></td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>isLeaf</td>
-        <td><span class='label label-info'>false</span></td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>extensionPoints</td>
-        <td>
-            
-        </td>
-    </tr>
     
     
     
@@ -370,9 +350,7 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='57ad486fc9b45654ef31ffaa00ad5027.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Usuario—Cadastro)</a></li>
-        
-        <li><a href='e794d8966b8d6c90cae047b2016e69c0.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Cadastro—Funcionario)</a></li>
+        <li><a href='a4e9fbb6beff487f03e284715d4686d5.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Login→Erro)</a></li>
         
     </ul>
 </section>
@@ -383,17 +361,6 @@
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='e794d8966b8d6c90cae047b2016e69c0.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Cadastro—Funcionario)</a></li>
-        
-        <li><a href='536a8aba49a66ee05d2ea2994828bf83.html'><span class='node-icon staruml-icon icon-UMLActivity'></span>Activity1</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
