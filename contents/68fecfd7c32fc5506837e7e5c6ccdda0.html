@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Acao</title>
+    <title>Envia</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Acao</h1>
+      <h1>Envia</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLLifeline"></span>
-          UMLLifeline
+          <span class="node-icon staruml-icon icon-UMLState"></span>
+          UMLState
         </span>
         
       </section>
@@ -44,13 +44,16 @@
           <span class="label label-info"><a href='74f25f233cba17645d30d1d144b20c11.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='30e3b57979aa0de9cec8cf7855558002.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Ordem de Compra</a></span>
+          <span class="label label-info"><a href='ad00d8d98d67b8e3303fb61b55b99504.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Ordem de Venda</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='4a9fb2562e4693ccba632911a648c5ca.html'><span class='node-icon staruml-icon icon-UMLInteraction'></span>Interaction1</a></span>
+          <span class="label label-info"><a href='643b84982651008ff3a480c8bdd34be6.html'><span class='node-icon staruml-icon icon-UMLStateMachine'></span>StateMachine1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='66b7b40b00415a87a7ac0f28fe4395c3.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Acao: Acao</a></span>
+          <span class="label label-info"><a href='ff80198c36338715518a05d7c10aef41.html'><span class='node-icon staruml-icon icon-UMLRegion'></span>(Region)</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='68fecfd7c32fc5506837e7e5c6ccdda0.html'><span class='node-icon staruml-icon icon-UMLState'></span>Envia</a></span>
         
       </section>
 
@@ -171,8 +174,69 @@
       <!-- State -->
 
       
+        
+        
+
+
+        
+        
+<section class="element-list">
+    <h3>Do Activities</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e886c7b7e86269e1f7b27f168f61d6f6.html'><span class='node-icon staruml-icon icon-UMLActivity'></span>EnviaOrdem</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
 
       <!-- Vertex -->
+
+      
+        
+        
+<section class="element-list">
+    <h3>Incoming Transitions</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='201592c32d181198e82b3bba29c8ef7c.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Mercado Fracionário?→Envia)</a></li>
+        
+        <li><a href='fe2572c27dd552771200049308574fc6.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Solicita→Envia)</a></li>
+        
+        <li><a href='1f37e79f884f27f0dc168078e0c73d7a.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Notifica→Envia)</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+<section class="element-list">
+    <h3>Outgoing Transitions</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='b1610a4422967980be0565f3b7f3357f.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Envia→Aguardando Execução)</a></li>
+        
+        <li><a href='86e2994b3aac86e446131efe96569f9a.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Envia→Aguardando Execução)</a></li>
+        
+    </ul>
+</section>
+
 
       
 
@@ -219,7 +283,7 @@
     
     <tr>
         <td>name</td>
-        <td>Acao</td>
+        <td>Envia</td>
     </tr>
     
     
@@ -252,28 +316,20 @@
     
     
     
-    <tr>
-        <td>selector</td>
-        <td></td>
-    </tr>
     
     
     
-    
-    
-    <tr>
-        <td>represent</td>
-        <td><a href='30803264f9798cc85eca11b6e20bd498.html'><span class='node-icon staruml-icon icon-UMLAttribute'></span>Role4</a></td>
-    </tr>
     
     
     
     
     
     <tr>
-        <td>isMultiInstance</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>submachine</td>
+        <td><span class='label label-info'>null</span></td>
     </tr>
+    
+    
     
     
     
@@ -309,11 +365,15 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='76f27d1ab853fab1b52c2de383719d68.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Message9 (Lifeline1→Acao)</a></li>
+        <li><a href='201592c32d181198e82b3bba29c8ef7c.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Mercado Fracionário?→Envia)</a></li>
         
-        <li><a href='451d74ffbb5842fce830cededd22feac.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Message10 (Acao→Cotacao)</a></li>
+        <li><a href='fe2572c27dd552771200049308574fc6.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Solicita→Envia)</a></li>
         
-        <li><a href='e8d88c6ad9fc23fa2ddcdb2ec8ab4a3d.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Message11 (Acao→Acao)</a></li>
+        <li><a href='b1610a4422967980be0565f3b7f3357f.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Envia→Aguardando Execução)</a></li>
+        
+        <li><a href='1f37e79f884f27f0dc168078e0c73d7a.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Notifica→Envia)</a></li>
+        
+        <li><a href='86e2994b3aac86e446131efe96569f9a.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Envia→Aguardando Execução)</a></li>
         
     </ul>
 </section>

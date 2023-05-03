@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Acao</title>
+    <title>Máximos e Mínimos</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Acao</h1>
+      <h1>Máximos e Mínimos</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLLifeline"></span>
-          UMLLifeline
+          <span class="node-icon staruml-icon icon-UMLState"></span>
+          UMLState
         </span>
         
       </section>
@@ -41,16 +41,19 @@
           <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Untitled</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='74f25f233cba17645d30d1d144b20c11.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
+          <span class="label label-info"><a href='594af663de577680f35b13183109d675.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='30e3b57979aa0de9cec8cf7855558002.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Ordem de Compra</a></span>
+          <span class="label label-info"><a href='e9e9498a049919f2d37c1260a5dcfd90.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Acao</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='4a9fb2562e4693ccba632911a648c5ca.html'><span class='node-icon staruml-icon icon-UMLInteraction'></span>Interaction1</a></span>
+          <span class="label label-info"><a href='24373a7c2862e883c8dfb4416a6a8c46.html'><span class='node-icon staruml-icon icon-UMLStateMachine'></span>StateMachine1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='66b7b40b00415a87a7ac0f28fe4395c3.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Acao: Acao</a></span>
+          <span class="label label-info"><a href='93a9102dacd9f8dd8701438fae8e13ee.html'><span class='node-icon staruml-icon icon-UMLRegion'></span>(Region)</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='77e01fe9fae738d4c3bfad49cd3f2ed9.html'><span class='node-icon staruml-icon icon-UMLState'></span>Máximos e Mínimos</a></span>
         
       </section>
 
@@ -171,8 +174,67 @@
       <!-- State -->
 
       
+        
+        
+
+
+        
+        
+<section class="element-list">
+    <h3>Do Activities</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='f29f14c31832b008ea497b1bf7268399.html'><span class='node-icon staruml-icon icon-UMLActivity'></span>MaximoMinimo</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
 
       <!-- Vertex -->
+
+      
+        
+        
+<section class="element-list">
+    <h3>Incoming Transitions</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='e9daea3f355f89f8a8268b2ef95a7715.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Se tiver→Máximos e Mínimos)</a></li>
+        
+        <li><a href='8c785d4ec443f25783fc62e1cde86ed9.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(→Máximos e Mínimos)</a></li>
+        
+        <li><a href='08076aa91a0acab17feb80a3445b844f.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Solicitar mercado→Máximos e Mínimos)</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+<section class="element-list">
+    <h3>Outgoing Transitions</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='39cd6cf8dff58cdb88d25a81dd7ff7b4.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Máximos e Mínimos→)</a></li>
+        
+    </ul>
+</section>
+
 
       
 
@@ -219,7 +281,7 @@
     
     <tr>
         <td>name</td>
-        <td>Acao</td>
+        <td>Máximos e Mínimos</td>
     </tr>
     
     
@@ -252,28 +314,20 @@
     
     
     
-    <tr>
-        <td>selector</td>
-        <td></td>
-    </tr>
     
     
     
-    
-    
-    <tr>
-        <td>represent</td>
-        <td><a href='30803264f9798cc85eca11b6e20bd498.html'><span class='node-icon staruml-icon icon-UMLAttribute'></span>Role4</a></td>
-    </tr>
     
     
     
     
     
     <tr>
-        <td>isMultiInstance</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>submachine</td>
+        <td><span class='label label-info'>null</span></td>
     </tr>
+    
+    
     
     
     
@@ -309,11 +363,13 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='76f27d1ab853fab1b52c2de383719d68.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Message9 (Lifeline1→Acao)</a></li>
+        <li><a href='e9daea3f355f89f8a8268b2ef95a7715.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Se tiver→Máximos e Mínimos)</a></li>
         
-        <li><a href='451d74ffbb5842fce830cededd22feac.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Message10 (Acao→Cotacao)</a></li>
+        <li><a href='39cd6cf8dff58cdb88d25a81dd7ff7b4.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Máximos e Mínimos→)</a></li>
         
-        <li><a href='e8d88c6ad9fc23fa2ddcdb2ec8ab4a3d.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Message11 (Acao→Acao)</a></li>
+        <li><a href='8c785d4ec443f25783fc62e1cde86ed9.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(→Máximos e Mínimos)</a></li>
+        
+        <li><a href='08076aa91a0acab17feb80a3445b844f.html'><span class='node-icon staruml-icon icon-UMLTransition'></span>(Solicitar mercado→Máximos e Mínimos)</a></li>
         
     </ul>
 </section>
